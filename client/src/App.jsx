@@ -21,9 +21,11 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+<div id='chat_container'></div>
+<form>
+<textarea name='prompt' rows={1} cols={1} placeholder="Ask codex"></textarea> 
+<button type='submit'>Submit</button>
+</form>
     </div>
   )
 }
